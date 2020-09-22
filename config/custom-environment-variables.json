@@ -1,0 +1,4 @@
+{
+  "db": "DATABASE_URI",
+  "MONGODB_URI": "DATABASE_URI"
+}

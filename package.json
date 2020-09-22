@@ -1,0 +1,35 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "simple node server with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramey29/node-server.git"
+  },
+  "author": "ramey29",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramey29/node-server/issues"
+  },
+  "homepage": "https://github.com/ramey29/node-server#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.12.0"
+  }
+}
